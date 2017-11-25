@@ -1,56 +1,69 @@
-body { padding-top: 70px; }
-
 .jumbotron {
-padding-top: 70px;
-min-height: 600px;
-margin-bottom: 0;
-background-image: url('images/fruit-and-veg.jpg');
-background-size: cover;
-background-attachment: fixed;
+  padding-top: 70px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url("images/laptop_and_drink.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+.jumbotron h1 {
+  font: 'Holtwood One SC';
+  font-size: 70px;
+  font-weight: bold;
+}
+.navbar navbar-default{
+  background-color: #333;
 }
 
-.jumbotron h1 {
-  font-family: 'Vast Shadow', cursive;
-  color: white;
-  margin-bottom: 1px;
- }
- .jumbotron img {
-   margin-top: 50px;
- }
- .jumbotron .form-group {
-  line-height: 1em;
+.table th {
+  font-size: 20px;
+  font:"Archivo Black";
 }
-.form-inline input[name="email"]{
-  width:80%;
+#About-us{
+  background: purple;
 }
-.form-inline label{
-  color: white;
-  font-weight: bold;
+
+#coding {
+background: pink;
+}
+
+/*#cocktails {
+background: 	#E0FFFF;
+}*/
+
+#social{
+  background: 	#D3D3D3;
+  padding-bottom: 50px;
 }
 
 #social-buttons button {
-color: white;
 margin-top: 50px;
+font-weight: bold;
 }
-.btn-twitter {
-background-color: #00acee;
-border-color: #009ad5;
+
+.btn-instagram {
+  background-color: #e60073;
 }
-.btn-facebook {
-background-color: #4868ac;
-border-color: #314776;
+.btn-instagram a {
+  color: white;
 }
+
 .btn-pinterest {
-background-color: #b62f26;
-border-color: #b62f26;
+  background-color: red;
 }
 
-#mission {
-  background-color: rgba(32, 35, 41,0.9);
-  color: #ddd;
-  padding-bottom: 40px;
+.btn-pinterest a{
+  color: white;
 }
 
-.navbar-inverse {
-   background-color: rgba(32, 35, 41,0.8);
- }
+.navbar {
+  background-color: #4d4d4d;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
