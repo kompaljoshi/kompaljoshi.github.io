@@ -7,44 +7,33 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Righteous" rel="stylesheet">
+        <script src="./jquery-3.2.1.min"></script>
+
     </head>
     <style> </style>
 
-    <body background="images/background_1.jpg">
+    <body background=white;>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Coding and Cocktails</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active">
+
+                 <ul class="nav">
+                    <li class="nav-item">
                         <a class="nav-link" href="#About-us">About Us</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#coding">Coding</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#cocktails">Cocktails</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#social">Contact Us</a>
                     </li>
                 </ul>
-                <!-- <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#About-us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#coding">Coding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cocktails">Cocktails</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#social">Contact Us</a>
-                    </li>
-                </ul> -->
             </div>
         </nav>
 
@@ -59,204 +48,114 @@
 
 
         <div id="About-us" class="container">
-            <h2> About us </h2>
+            <h2 class="text-center"> About us </h2>
+
+            <div class="row about_us">
+              <div class="col-md-6">
+                  <p> Teach yourself how to code with a twist.</p>
+                  <br>
+                  <br>
+                  <p> It's time to get techy and learn web development along with some easy to make cocktails.
+                    Programming is lot of fun and extraordinarily useful. It allows you to be creative
+                    and open up a wide range of careers for you. Read the tutorials provided below. Sign up for
+                    more stuff to follow.
+                  </p>
+              </div>
+
+              <div class="col-md-6">
+                <img src="images/cocktail.png">
+              </div>
+            </div>
         </div>
 
 
+
         <div id= "coding" class="container">
-            <h2> Coding </h2>
+            <h2 class="text-center"> Coding
+            <small>'best served with cocktails :)'</small>
+            </h2>
+            <div class="row coding">
+              <div class="col-md-6">
+                <a href="#">
+                  <img class="img-circle img-responsive pull-right" src="images/html5_logo.png" alt="">
+                </a>
+              </div>
+
+                <div class="col-md-6">
+                  <h3>HTML</h3>
+                    <p>
+                  HTML stands for HyperText Markup Language. It is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet.
+                    </p>
+                      <a class="btn btn-primary" href="#">Learn more</a>
+                  </div>
+            </div>
+    <!--css-->
+              <div class="row coding">
+                <div class="col-md-6">
+                  <a href="#">
+                    <img class="img-circle img-responsive pull-right" src="images/css3_logo.png" alt="">
+                  </a>
+                </div>
+                  <div class="col-md-6">
+                    <h3>CSS</h3>
+                    <p>
+                      CSS stands for Cascading Style Sheets. It is a language that defines style constructs such as fonts, colors, and positioning, which describe how information on a webpage is formatted and dispalyed.
+                    </p>
+                    <a class="btn btn-primary" href="#">Learn more</a>
+                  </div>
+                </div>
+    <!--JavaScript-->
+            <div class="row coding">
+              <div class="col-md-6">
+                <a href="#">
+                  <img class="img-circle img-responsive pull-right" src="images/java_logo.png" alt="">
+                  </a>
+                  </div>
+                  <div class="col-md-6">
+                  <h3>JavaSript</h3>
+                  <p>
+                    JavaScript is a programming language used to make webpages interactive. It is what gives a page life — the interactive elements and animation that engage a user.
+                  </p>
+                  <a class="btn btn-primary" href="#">Learn more</a>
+              </div>
+            </div>
+
         </div>
 
 
         <div id="cocktails" class="container">
             <h2>Cocktails</h2>
-              <br>
-              <br>
-            <div class="text-center" >
-                <h3> VODKA COCTAILS </h3>
-            </div>
-            <br>
-            <br>
-            <div id="recipes" class="container">
-                <div class="row 1">
-                    <div class="col-md-6">
-                        <img src="images/JavaSip.jpg">
-                        <h4>THE JAVASIP </h4>
-                        <p>For when you need the flexibility and easy portability of a JVM,
-                            why not make yourself our JavaSip cocktail for an added boost?
-                            You’ll be running faster than C++ in no time!
-                        </p>
-                        <br>
-                        <br>
-                        <h5>INGREDIENTS</h5>
-                        <br>
-                        <p>2 ounces vodka
-                            <br>
-                            1 ounce passion fruit purée
-                            <br>
-                            1 ounce vanilla syrup
-                            <br>
-                            1/2 ounce lime juice
-                            <br>
-                        </p>
-                        <h5>GARNISH</h5>
-                        <br>
-                        <p> Passion fruit, sparkling rosé</p>
-                        <br>
-                        <br>
-                        <h5>DIRECTIONS</h5>
-                        <br>
-                        <p>Put all ingredients in a cocktail shaker and shake
-                            <br>
-                            Strain into a coupe and serve with fresh passion fruit and
-                            a shot of sparkling rosé
-                            <br>
-                            And finally, enjoy!
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/CSS Cosmo.jpg" >
-                        <h4>CSS COSMO </h4>
-                        <p>When they say save the best for last they must’ve thought of
-                            this when they were naming Vodka in the dictionary.
-                            It may be in the back but more often than not it can bring to
-                            centre stage things you least expected. If you’re struggling to see
-                            where the error in your code hides, why not whip up a cocktail to
-                            open your eyes to new perspectives?
-                        </p>
-                        <br>
-                        <br>
-                        <h5>INGREDIENTS</h5>
-                        <br>
-                        1/2 fluid ounces vodka
-                        <br>
-                        1/4 fluid ounce lime juice
-                        <br>
-                        1/4 fluid ounce triple sec
-                        <br>
-                        1/4 fluid ounce cranberry juice
-                        <br>
-                        1 cup ice
-                        <br>
-                        <br>
-                        <h5>GARNISH</h5>
-                        <br>
-                        <p>1 lime wedge for garnish</p>
-                        <br>
-                        <br>
-                        <h5>DIRECTIONS</h5>
-                        <br>
-                        <p>Combine vodka, lime juice, triple sec, and cranberry juice in a cocktail shaker.
-                        <br>
-                        Add ice, cover and shake until chilled.
-                        <br>
-                        Strain into a chilled cocktail glass.
-                        <br>
-                        Garnish with a lime wedge
-                        <br>
-                        And finally, enjoy!
-                        <br>
-                        <br>
-                        </p>
-                    </div>
-                    <p>If these signature drinks aren't doing it for you, maybe these will help?</p>
-                        <br>
-                    <ol>
-                        <li>Vodka Gimlet: Refresh your palette and your eyes with this cook up
-                            <a href="https://www.liquor.com/recipes/vodka-gimlet/">here</a></button>
-                        </li>
-                        <br>
-                        <li>Cosmopolitan: Maybe this Cosmo will be more like the missing style
-                            you didn’t know you needed. Check it out
-                            <a href="https://bettercocktail.com/cosmopolitan/">here</a></button>
-                        </li>
-                        <br>
-                        <li>Triple Berry Spritzer: Maybe you need a Spritz of new energy,
-                            this fruity mixture may be the one for you. Find it
-                            <a href="https://www.ilovemydisorganizedlife.com/triple-berry-vodka-spritzer/ ">here!</a></button>
-                        </li>
-                    </ol>
-                </div>
-                <br>
-                <br>
-                <div class="text-center" >
-                    <h3> RUM COCKTAILS </h3>
-                </div>
-                <br>
-                <br>
-                <div class="row 2">
-                    <div class="col-md-6">
-                        <h4>THE RUM BUG </h4>
-                        <img src='images/CSS Cosmo.jpg' class= "img-circle centre-block" >
-                        <p> Awh Rum, when you need an extra boost of strength to fight the bugs in life,
-                            why not conjour up an extra punch with the Rum Bug cocktail?
-                        </p>
-                            <br>
-                            <br>
-                        <h5>INGREDIENTS</h5>
-                        <br>
-                          <p>2 oz White rum
-                            <br>
-                            2 oz Dark rum
-                            <br>
-                            1 oz Lime juice
-                          </p>
+                          <div class="row cocktails">
+                            <div class="col-md-6">
+                              <center>
+                              <a href="vodka_cocktails.html" >
+                               <img class="hoverimage" src="images/JavaSip.jpg"  >
+                             </a>
+                             <p>Vodka Cocktails</p>
+                           </center>
+                            </div>
 
-                        <p>
-                            1 oz Orange juice
-                            <br>
-                            2 oz Passion fruit juice
-                            <br>
-                            1⁄2 oz Simple syrup
-                            <br>
-                            1⁄2 oz Grenadine
-                            <br>
-                            <br>
-                        </p>
-                        <h5>GARNISH</h5>
-                        <br>
-                        <p>1 Orange wheel and cherry</p>
-                        <br>
-                        <br>
-                        <h5>DIRECTIONS</h5>
-                        <br>
-                        <p>Add all the ingredients to a shaker and fill with ice
-                        <br>
-                        Shake, and strain into a large Hurricane glass filled with fresh ice
-                        <br>
-                        Garnish with an orange half-wheel and a cherry
-                        <br>
-                        Finally, enjoy!
-                        <br>
-                        <br>
-                        </p>
-                    </div>
-                    <p>Looking for a different kind of arsenal to fight those nasty bugs?
-                        Maybe one of these cocktails will be to your liking:</p>
-                        <br>
-                    <ol>
-                        <li>Pineapple Spiced Rum: Add a bit of spice to your punch with this Pineapple Spiced Rum Mojito. Click
-                            <a href="https://www.kitchensanctuary.com/2016/08/pineapple-ginger-mojitos-spiced-rum/">here!</a></button>
-                        </li>
-                        <br>
-                        <li>Bacardi: Or why not keep things simple and clean with a stinging after taste using this tangy
-                            <a href="https://bettercocktail.com/bacardi/">number</a></button>
-                        </li>
-                        <br>
-                        <li>For those of you with a Vendetta streak, why not leave your bittersweet mark on
-                            those nasty bugs with this sweet but not too sweet concoction?  Find it
-                            <a href="https://www.papernstitchblog.com/2017/05/12/pineapple-mango-rum-punch-recipe-inspired-by-the-caribbean/ ">here!</a></button>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-
-
+                            <div class="col-md-6">
+                              <center>
+                                <a href="rum_cocktails.html" >
+                              <img class="hoverimage" src="images/CSS Cosmo.jpg" >
+                                </a>
+                              <p>Rum Cocktails</p>
+                            </center>
+                            </div>
+                          </div>
+         </div>
 
 
         <div id="social" class="text-center">
             <h3> Contact us </h3>
-            <div id="social-buttons">
+            <p> We would love to hear from you </p>
+              <iframe
+                scrolling="no"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSelI7oU4_GsIZb2vCAL-ZiZexYm3nS6XuJjPTW9Cq1Gr86Gmw/viewform?embedded=true"
+                width="500" height="750" frameborder="0" marginheight="0" marginwidth="0"
+              >Loading...</iframe>
+              <div id="social-buttons">
                 <button class="btn btn-lg btn-instagram"><a href="https://www.instagram.com/coding_and_cocktails/">Instagram</a></button>
                 <button class="btn btn-lg btn-pinterest "><a href="https://www.pinterest.ie/coding_and_cocktails/"> Pinterest</a></button>
             </div>

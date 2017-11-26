@@ -12,29 +12,34 @@
   font-size: 70px;
   font-weight: bold;
 }
-.navbar navbar-default{
-  background-color: #333;
+.navbar{
+  background-color: #4d4d4d;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 100px;
+
 }
 
-.table th {
-  font-size: 20px;
-  font:"Archivo Black";
-}
 #About-us{
-  background: purple;
+  background: white;
+  text-align: center;
+  font-family: georgia;
+  font-size: 20px;
 }
 
 #coding {
-background: pink;
+background: white;
 }
 
-/*#cocktails {
-background: 	#E0FFFF;
-}*/
+#cocktails {
+background: 	white;
+}
 
 #social{
-  background: 	#D3D3D3;
-  padding-bottom: 50px;
+  background:#DCDCDC;
+  padding : 30px;
 }
 
 #social-buttons button {
@@ -57,13 +62,52 @@ font-weight: bold;
   color: white;
 }
 
-.navbar {
-  background-color: #4d4d4d;
-}
 .navbar-brand {
   color: white;
   font-weight: bold;
 }
 .nav-link {
   color: white;
+}
+
+h2{
+  font-size: 50px;
+  font-family:  "Lobster";
+}
+h3{
+font-family: "Righteous";
+font-size: 30px;
+}
+
+
+.row coding, .img-circle, .img-responsive img{
+  height: 200px;
+  width: 200px;
+}
+
+.row coding .pull-right {
+  margin: 0 0 10px 20px;
+}
+
+.row coding .pull-left {
+  margin: 0 20px 10px 0;
+}
+
+.row cocktails, img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.row about_us, img{
+  width:300px;
+  height:300px;
+
+}
+
+.container {
+  padding-top: 50px;
+}
+.row {
+  margin: 60px 0;
+  padding: 40px 80px;
 }
