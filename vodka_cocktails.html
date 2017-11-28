@@ -1,128 +1,223 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Coding and Cocktails</title>
+  <head>
         <meta charset="utf-8">
+        <title>Vodka Cocktails</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Righteous" rel="stylesheet">
-        <script src="./jquery-3.2.1.min"></script>
+        <link rel="stylesheet" type="text/css" href="./font.css">
+        <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="./bootstrap.bundle.min.js"></script>
+  </head>
 
-    </head>
-    <style> </style>
+  <body background="white">
+    <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="./index.html">Coding and Cocktails</a>
+              </div>
 
-<body>
+               <ul class="nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="./index.html#About-us">About Us</a>
 
-<div class="container">
-<div class="text-center" >
-    <h3> VODKA COCTAILS </h3>
-</div>
-<br>
-<br>
-<div id="recipes" class="container">
-    <div class="row 1">
-        <div class="col-md-6">
-            <img src="images/JavaSip.jpg">
-            <h4>THE JAVASIP </h4>
-            <p>For when you need the flexibility and easy portability of a JVM,
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Coding
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                          <a class="dropdown-item" href="./html.html">HTML</a>
+                          <a class="dropdown-item" href="./css.html">CSS</a>
+                          <a class="dropdown-item" href="./javascript.html">JavaScript</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Cocktails
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                          <a class="dropdown-item" href="./vodka_cocktails.html">Vodka Cocktails</a>
+                          <a class="dropdown-item" href="./rum_cocktails.html">Rum Cocktails</a>
+                        </div>
+                      </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="./index.html#social">Contact Us</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <div class="jumbotron_rum">
+            <div class="container">
+              <h1>Vodka Cocktails</h1>
+            </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="text-center">
+          <h2>THE JAVASIP</h2>
+          <br>
+          <img class="rounded-circle img-fluid" src="images/JavaSip.jpg" alt="">
+          </div>
+        <div style="padding: 20px 20px">
+            <h4><small>For when you need the flexibility and easy portability of a JVM,
                 why not make yourself our JavaSip cocktail for an added boost?
-                You’ll be running faster than C++ in no time!
-            </p>
-            <br>
-            <br>
-            <h5>INGREDIENTS</h5>
-            <br>
-            <p>2 ounces vodka
-                <br>
-                1 ounce passion fruit purée
-                <br>
-                1 ounce vanilla syrup
-                <br>
-                1/2 ounce lime juice
-                <br>
-            </p>
-            <h5>GARNISH</h5>
-            <br>
-            <p> Passion fruit, sparkling rosé</p>
-            <br>
-            <br>
-            <h5>DIRECTIONS</h5>
-            <br>
-            <p>Put all ingredients in a cocktail shaker and shake
-                <br>
-                Strain into a coupe and serve with fresh passion fruit and
-                a shot of sparkling rosé
-                <br>
-                And finally, enjoy!
-            </p>
+                You’ll be running faster than C++ in no time!</small> </h4>
         </div>
-        <div class="col-md-6">
-            <img src="images/CSS Cosmo.jpg" >
-            <h4>CSS COSMO </h4>
-            <p>When they say save the best for last they must’ve thought of
+
+        <h5>INGREDIENTS</h5>
+              <br>
+              <p>2 ounces vodka
+                  <br>
+                  1 ounce passion fruit purée
+                  <br>
+                  1 ounce vanilla syrup
+                  <br>
+                  1/2 ounce lime juice
+                  <br>
+                  <br>
+              </p>
+              <h5>GARNISH</h5>
+              <br>
+              <p> Passion fruit, sparkling rosé</p>
+              <br>
+              <br>
+              <h5>DIRECTIONS</h5>
+              <br>
+              <p>Put all ingredients in a cocktail shaker and shake.
+                  <br>
+                  Strain into a coupe and serve with fresh passion fruit and
+                  a shot of sparkling rosé.
+                  <br>
+                  And finally, enjoy!
+              </p>
+      </div>
+
+      <div class="col-lg-6 col-sm-6">
+        <div class="text-center">
+        <h2>CSS COSMO</h2>
+        <br>
+        <img class="rounded-circle img-fluid" src="images/CSS Cosmo.jpg" alt="">
+        </div>
+      <div style="padding: 20px 20px">
+          <h4><small>When they say save the best for last they must’ve thought of
                 this when they were naming Vodka in the dictionary.
                 It may be in the back but more often than not it can bring to
                 centre stage things you least expected. If you’re struggling to see
                 where the error in your code hides, why not whip up a cocktail to
-                open your eyes to new perspectives?
-            </p>
-            <br>
-            <br>
-            <h5>INGREDIENTS</h5>
-            <br>
-            1/2 fluid ounces vodka
-            <br>
-            1/4 fluid ounce lime juice
-            <br>
-            1/4 fluid ounce triple sec
-            <br>
-            1/4 fluid ounce cranberry juice
-            <br>
-            1 cup ice
-            <br>
-            <br>
-            <h5>GARNISH</h5>
-            <br>
-            <p>1 lime wedge for garnish</p>
-            <br>
-            <br>
-            <h5>DIRECTIONS</h5>
-            <br>
-            <p>Combine vodka, lime juice, triple sec, and cranberry juice in a cocktail shaker.
-            <br>
-            Add ice, cover and shake until chilled.
-            <br>
-            Strain into a chilled cocktail glass.
-            <br>
-            Garnish with a lime wedge
-            <br>
-            And finally, enjoy!
-            <br>
-            <br>
-            </p>
-        </div>
-        <p>If these signature drinks aren't doing it for you, maybe these will help?</p>
-            <br>
-        <ol>
-            <li>Vodka Gimlet: Refresh your palette and your eyes with this cook up
-                <a href="https://www.liquor.com/recipes/vodka-gimlet/">here</a></button>
-            </li>
-            <br>
-            <li>Cosmopolitan: Maybe this Cosmo will be more like the missing style
-                you didn’t know you needed. Check it out
-                <a href="https://bettercocktail.com/cosmopolitan/">here</a></button>
-            </li>
-            <br>
-            <li>Triple Berry Spritzer: Maybe you need a Spritz of new energy,
-                this fruity mixture may be the one for you. Find it
-                <a href="https://www.ilovemydisorganizedlife.com/triple-berry-vodka-spritzer/ ">here!</a></button>
-            </li>
-        </ol>
-    </div>
-    <br>
-    <br>
+                open your eyes to new perspectives?</small> </h4>
+      </div>
 
-</body>
+      <h5>INGREDIENTS</h5>
+              <br>
+              1/2 fluid ounces vodka
+              <br>
+              1/4 fluid ounce lime juice
+              <br>
+              1/4 fluid ounce triple sec
+              <br>
+              1/4 fluid ounce cranberry juice
+              <br>
+              1 cup ice
+              <br>
+              <br>
+              <h5>GARNISH</h5>
+              <br>
+              <p>1 lime wedge for garnish</p>
+              <br>
+              <br>
+              <h5>DIRECTIONS</h5>
+              <br>
+              <p>Combine vodka, lime juice, triple sec, and cranberry juice in a cocktail shaker.
+              <br>
+              Add ice, cover and shake until chilled.
+              <br>
+              Strain into a chilled cocktail glass.
+              <br>
+              Garnish with a lime wedge
+              <br>
+              And finally, enjoy!
+              <br>
+              <br>
+              </p>
+    </div>
+  </div>
+</div>
+
+
+
+        <div id="html"class="container">
+          <div class="text-center">
+            <h3><small>If these signature drinks aren't doing it for you, maybe these will help?</small></h3>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 portfolio-item">
+              <div class="card h-100">
+                <a href="https://www.liquor.com/recipes/vodka-gimlet/">
+                  <img class="card-img-top" src="images/vodka1.jpg" alt="">
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://www.liquor.com/recipes/vodka-gimlet/">
+                      Vodka Gimlet
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    <strong>Refresh your palette and your eyes with this cook up.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-lg-4 portfolio-item">
+                <div class="card h-100">
+                  <a href="https://bettercocktail.com/cosmopolitan/">
+                    <img class="card-img-top" src="images/vodka2.jpg" alt="">
+                  </a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="https://bettercocktail.com/cosmopolitan/">
+                        Cosmopolitan
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      <strong>Maybe this Cosmo will be more like the missing style
+                you didn’t know you needed.</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-4 portfolio-item">
+                  <div class="card h-100">
+                    <a href="https://www.ilovemydisorganizedlife.com/triple-berry-vodka-spritzer/">
+                      <img class="card-img-top" src="images/vodka3.png" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="https://www.ilovemydisorganizedlife.com/triple-berry-vodka-spritzer/">
+                          Triple Berry Spritzer
+                        </a>
+                      </h4>
+                      <p class="card-text">
+                        <strong>Maybe you need a Spritz of new energy,
+                this fruity mixture may be the one for you.</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+  </body>
 </html>
